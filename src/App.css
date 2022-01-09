@@ -1,10 +1,23 @@
+* {
+	margin: unset;
+	padding: unset;
+}
 .app {
-	background-color: beige;
+	background-color: #d3dedc;
 	height: 100vh;
+	font-family: "weathericons";
 }
 .wrap {
 	width: 90%;
 	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 48px;
+	color: #b3541e;
+	font-family: "weathericons";
+	text-decoration: underline;
 }
 .search {
 	padding: 50px;
@@ -19,9 +32,80 @@ input {
 }
 button {
 	width: 15%;
-	background-color: cadetblue;
+	background-color: #7c99ac;
 	color: #fff;
 	font-size: 17px;
 	border: unset;
 	border-radius: 5px;
+}
+.widget {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	background-color: #92a9bd;
+	border-radius: 20px;
+}
+.weathericon i {
+	margin: 60px 0;
+	font-size: 120px;
+}
+.weatherInfo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+}
+.temperature {
+	color: #fff;
+	padding: 30px 0;
+	width: 100%;
+}
+.temperature span {
+	font-size: 57px;
+}
+.description {
+	color: #fff;
+	padding: 30px 0;
+	width: 100%;
+}
+.weatherCondition {
+	text-transform: uppercase;
+}
+.weatherCondition h2 {
+	font-size: 40px;
+}
+.place {
+	background-color: #000;
+}
+.place h6 {
+	font-size: 16px;
+}
+.date {
+	background-color: #46c3c7;
+	padding: 30px 20px;
+	width: 100%;
+	font-size: 28px;
+	color: #fff;
+	font-weight: bold;
+}
+.extraTemp {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+.twoSidedsecction {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+p {
+	margin-right: 20px;
+}
+p i {
+	font-size: 30px;
+	color: #1bf7ff;
+}
+.extraInfoLeftSide {
+	text-align: left;
+	font-size: 20px;
 }
